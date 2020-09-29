@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+ 
+ width: 100%;
+ z-index: 9999;
+ background-color: black;
+ padding: 10px 0;
+
+}
+.sticky{
+  background-color: red;
+  width: 100%;
+  position: fixed;
+}
+.nav-link{
+  color: #fff !important;
+}
+.banner-section{
+  width: 100%;
+  background-image: url(../img/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.banner-section .row{
+  height: 100vh;
+  align-items: center;
+}
